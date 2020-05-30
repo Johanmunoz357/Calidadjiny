@@ -1,0 +1,39 @@
+<div>
+    <form>
+
+        <div class="container">
+            <label for="name"><b>Nombre del visitante</b></label>
+            <input type="text" placeholder="ingrese nombre del visitante">
+
+            Documento
+           <select name="Documento">
+                <option>Cedula de ciudadania</option>
+                <option>Targeta de identidad</option>
+                <option>Registro civil</option>
+            </select>
+            
+            <p></p>
+
+            <label for="fecha"><b>Fecha de nacimiento</b></label>
+            <input type="text" placeholder="Ingrese fecha de nacimiento" name="usuario" required>
+
+            Género 
+           <select name="Género">
+                <option>Masculiono</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+            </select>
+
+            <p></p>
+
+            <label for="dirección"><b>Dirección</b></label>
+            <input type="text" placeholder="Ingrese su dirección" name="usuario" required>
+
+            <label for="celular"><b>Teléfono celudar</b></label>
+            <input type="text" placeholder="Ingrese teléfono celular" name="usuario" required>
+
+            <input type="button" (click)="ingrear()" value="Entrar">
+        </div>
+
+    </form>
+<div>
